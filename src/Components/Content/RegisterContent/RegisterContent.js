@@ -11,14 +11,10 @@ export default class RegisterContent extends Component {
         return(
             <div>
                 <Header/>
-                <img id="top" src="top.png" alt=""/>
 	    <div id="form_container">
-	
-		        <h1><a>Untitled Form</a></h1>
 		<form id="form_58609" class="appnitro"  method="post" action="">
 					<div class="form_description">
-			<h2>Untitled Form</h2>
-			<p>This is your form description. Click here to edit.</p>
+			<h2>Регистрация на сайте</h2>
 		</div>						
 			<ul >
 			

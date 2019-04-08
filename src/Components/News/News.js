@@ -34,7 +34,7 @@ export default class News extends Component {
                         return(
                             <div key={i} className="news-item">
                                 <h3>{val.title}</h3>
-                                <p>{val.desc.slice(0,140)+"..."}</p>
+                                <p>{val.desc.slice(0,255)+"..."}</p>
                             </div>
                         )
                     })

@@ -8,7 +8,9 @@
 }
 
 .flowerItem {
+    box-shadow: 0 0 10px #000;
+    background: #eee;
     display: inline-block;
-    margin: 3.5em;
+    margin: 1em 3.5em;
     outline: 2px solid rgb(134, 228, 155);
 }

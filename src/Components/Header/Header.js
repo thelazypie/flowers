@@ -1,4 +1,3 @@
-
 import React,{Component} from 'react';
 import Logo from '../Logo/Logo'
 
@@ -11,10 +10,10 @@ export default class Header extends Component {
     render() {
         return(
             <header>
-                {/* <Logo/> */}
+                <Logo/>
                 <ul>
                     <li>Главная</li>
-                    <li>Товары</li>
+                    <li>Акксесуары</li>
                     <li>О доставке</li>
                     <li>Регистрация</li>
                     <li>Помощь</li>  

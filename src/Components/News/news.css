@@ -1,14 +1,23 @@
 .news {
     background: #eee;
-    text-align: center
+    text-align: center;
+    border-bottom: 3px solid #000;
 }
 
 .news .news-item {
     display: inline-block;
 }
 
+.news h2 {
+    border-bottom: 1px solid #000;
+}
+
+.news h3 {
+    background: rgb(37, 206, 22)
+}
+
 .news-item {
     box-shadow: 0 0 10px #000;
-    width: 250px;
+    width: 350px;
     margin: 3em 2em;
 }

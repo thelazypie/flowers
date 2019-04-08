@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
+import {BrowserRouter, Route} from 'react-router-dom'
 import './App.css';
-import Header from './Components/Header/Header' 
+import RegisterContent from "./Components/Content/RegisterContent/RegisterContent"
+// import Header from './Components/Header/Header' 
 import MainContent from './Components/Content/MainContent/MainContent'
-import Footer from './Components/Footer/Footer'
+// import Footer from './Components/Footer/Footer'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header/>
-        <MainContent/>
-        <Footer/>
-      </div>
+
+      <BrowserRouter>
+        <div className="App">
+          {/* <Header/> */}
+          {/* <MainContent/> */}
+          <Route path="/" component={MainContent} exact/>
+          <Route path="/register" component={RegisterContent} exact/>
+          {/* <Footer/> */}
+        </div>
+      </BrowserRouter> 
     );
   }
 }

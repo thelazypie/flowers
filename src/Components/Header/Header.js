@@ -14,12 +14,12 @@ export default class Header extends Component {
             <header>
                     <Logo/>
                     <ul>
-                        <li>Главная</li>
-                        <li>Акксесуары</li>
-                        <li>О доставке</li>
-                        <li>Регистрация</li>
-                        <li>Помощь</li>  
-                        <li>О нас</li>
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="/">Акксесуары</a></li>
+                        <li><a href="/">О доставке</a></li>
+                        <li><a href="/register">Регистрация</a></li>
+                        <li><a href="/">Помощь</a></li>  
+                        <li><a href="/">О нас</a></li>
                     </ul>
                     <Contacts/>
             </header>

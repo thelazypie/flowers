@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 import './mainContent.css'
+import Header from "../../Header/Header"
+import Footer from "../../Footer/Footer"
 import ContentFlower from '../../ContentFlower/ContentFlower'
 import News from '../../News/News'
 
@@ -63,6 +65,7 @@ export default class MainContent extends Component {
     render() {
         return(
             <div>
+                <Header/>
                 <News/>
                 <div className="flowers">
                 {
@@ -73,6 +76,7 @@ export default class MainContent extends Component {
                     })
                 }
                 </div>
+                <Footer/>
             </div>
         )
     }

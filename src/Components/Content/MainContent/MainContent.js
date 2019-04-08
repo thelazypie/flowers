@@ -1,7 +1,5 @@
 import React,{Component} from 'react';
-// import logo from './logo.png'
 import './mainContent.css'
-// import aih from '../../../img/Аихризончик.png';
 import ContentFlower from '../../ContentFlower/ContentFlower'
 
 const dataFlowers = [
@@ -68,7 +66,7 @@ export default class MainContent extends Component {
                 {
                     dataFlowers.map((flower, index)=>{
                         return(
-                            <ContentFlower className="col-md-4 col-lg-4 col-sm-4" img={flower.img} key={index} name={flower.name} price={flower.price}/>
+                            <ContentFlower img={flower.img} key={index} name={flower.name} price={flower.price}/>
                         )
                     })
                 }

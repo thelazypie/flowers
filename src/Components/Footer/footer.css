@@ -4,3 +4,16 @@ footer {
     background: rgb(6, 163, 66);
     border-top: 3px solid #000;
 }
+footer .contacts {
+    padding: 1em;
+}
+
+.towns {
+    padding: 1em;
+    list-style: none;
+    display: inline-block;
+}
+
+.towns li {
+    list-style: none;
+}

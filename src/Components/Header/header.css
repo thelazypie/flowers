@@ -7,8 +7,8 @@ header {
 
 header ul {
     /* float: right; */
-    width: inherit;
     display: inline-block;
+    /* width: inherit; */
 }
 
 header ul li {
@@ -19,6 +19,11 @@ header ul li {
     transition: all .3s;
     border-radius: 5px;
     /* text-align: center; */
+}
+
+header .contacts {
+    font-size: 1.2em;
+    float: right;
 }
 
 header ul li:hover {

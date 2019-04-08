@@ -1,6 +1,4 @@
 import React,{Component} from 'react';
-// import logo from './logo.png'
-// import './logo.css'
 import './contacts.css';
 
 export default class Contacts extends Component {
@@ -15,3 +13,4 @@ export default class Contacts extends Component {
             </div>
         )
     }
+}

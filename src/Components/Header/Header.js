@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
-import Logo from '../Logo/Logo'
+import Logo from '../Logo/Logo';
+import {Col} from 'bootstrap-4-react'
+import Contacts from '../Contacts/Contacts'
 
 import './header.css'
 
@@ -10,15 +12,16 @@ export default class Header extends Component {
     render() {
         return(
             <header>
-                <Logo/>
-                <ul>
-                    <li>Главная</li>
-                    <li>Акксесуары</li>
-                    <li>О доставке</li>
-                    <li>Регистрация</li>
-                    <li>Помощь</li>  
-                    <li>О нас</li>
-                </ul>
+                    <Logo/>
+                    <ul>
+                        <li>Главная</li>
+                        <li>Акксесуары</li>
+                        <li>О доставке</li>
+                        <li>Регистрация</li>
+                        <li>Помощь</li>  
+                        <li>О нас</li>
+                    </ul>
+                    <Contacts/>
             </header>
         )
     }

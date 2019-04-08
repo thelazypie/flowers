@@ -1,0 +1,14 @@
+.news {
+    background: #eee;
+    text-align: center
+}
+
+.news .news-item {
+    display: inline-block;
+}
+
+.news-item {
+    box-shadow: 0 0 10px #000;
+    width: 250px;
+    margin: 3em 2em;
+}

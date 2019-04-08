@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import './mainContent.css'
 import ContentFlower from '../../ContentFlower/ContentFlower'
+import News from '../../News/News'
 
 const dataFlowers = [
     {
@@ -62,6 +63,7 @@ export default class MainContent extends Component {
     render() {
         return(
             <div>
+                <News/>
                 <div className="flowers">
                 {
                     dataFlowers.map((flower, index)=>{

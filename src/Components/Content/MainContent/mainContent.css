@@ -1,0 +1,14 @@
+.flowers {
+    width: 100%;
+    background: #eee
+}
+
+.flowerItem, .flowerItem img {
+    width: 200px;
+}
+
+.flowerItem {
+    display: inline-block;
+    margin: 3.5em;
+    outline: 2px solid rgb(134, 228, 155);
+}

@@ -6,65 +6,55 @@ import ContentFlower from '../../ContentFlower/ContentFlower'
 
 const dataFlowers = [
     {
-        name : "Аихризон",
+        name : "Variegatum",
         price: "2000",
         img : "https://pp.userapi.com/c639221/v639221636/241f7/P6x2YAMEvC8.jpg"
     },
     {
-        name : "1",
+        name : "Hobbit",
         price: "2000",
         img : "https://pp.userapi.com/c639221/v639221636/241d3/Fp9K5nfrfBQ.jpg"
     },
     {
-        name : "1",
+        name : "minor",
         price: "2000",
         img : "https://pp.userapi.com/c639221/v639221636/241ca/tJVu0dG4bWI.jpg"
     },
     {
-        name : "Аихризон",
+        name : "Catuledon",
         price: "2000",
         img : "https://pp.userapi.com/c639221/v639221636/24532/72Lv3iZLDfg.jpg"
     },
     {
-        name : "1",
-        price: "2000",
+        name : "Echeueria",
+        price: "20",
         img : "https://pp.userapi.com/c639221/v639221636/241dc/8PzlcyHG720.jpg"
-    },
-    {
-        name : "1",
-        price: "2000",
-        img : "https://pp.userapi.com/c639221/v639221636/241ca/tJVu0dG4bWI.jpg"
-    },
-    {
-        name : "1",
-        price: "2000",
-        img : "https://pp.userapi.com/c639221/v639221636/241ca/tJVu0dG4bWI.jpg"
-    },
-    {
-        name : "Аихризон",
+    },{
+        name : "Variegatum",
         price: "2000",
         img : "https://pp.userapi.com/c639221/v639221636/241f7/P6x2YAMEvC8.jpg"
     },
     {
-        name : "1",
+        name : "Hobbit",
         price: "2000",
         img : "https://pp.userapi.com/c639221/v639221636/241d3/Fp9K5nfrfBQ.jpg"
     },
     {
-        name : "1",
+        name : "minor",
         price: "2000",
         img : "https://pp.userapi.com/c639221/v639221636/241ca/tJVu0dG4bWI.jpg"
     },
     {
-        name : "Аихризон",
+        name : "Catuledon",
         price: "2000",
         img : "https://pp.userapi.com/c639221/v639221636/24532/72Lv3iZLDfg.jpg"
     },
     {
-        name : "1",
-        price: "2000",
+        name : "Echeueria",
+        price: "20",
         img : "https://pp.userapi.com/c639221/v639221636/241dc/8PzlcyHG720.jpg"
-    }
+    },
+    
 ]
 
 export default class MainContent extends Component {
@@ -78,7 +68,7 @@ export default class MainContent extends Component {
                 {
                     dataFlowers.map((flower, index)=>{
                         return(
-                            <ContentFlower className="col-md-4 col-lg-4" img={flower.img} key={index} name={flower.name} price={flower.price}/>
+                            <ContentFlower className="col-md-4 col-lg-4 col-sm-4" img={flower.img} key={index} name={flower.name} price={flower.price}/>
                         )
                     })
                 }

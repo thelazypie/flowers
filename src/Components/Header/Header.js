@@ -11,7 +11,7 @@ export default class Header extends Component {
     render() {
         return(
             <header>
-                <Logo/>
+                {/* <Logo/> */}
                 <ul>
                     <li>Главная</li>
                     <li>Товары</li>
